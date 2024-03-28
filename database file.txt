@@ -1,0 +1,42 @@
+SATYAM SINGH
+
+
+Database Queries for BANK MANAGEMENT SYSTEM Project
+
+
+1 - Create database with name bankmanagementsystem in mysql
+
+create database BankManagementSystem;
+
+2 - Select the database you just created
+
+use BankManagementSystem;
+
+3 - Create our first Table in the selected database with name signup
+
+create table SignupOne(formno varchar(20), Name varchar(20), Father_name varchar(20), DOB varchar(20), Gender varchar(20),Email varchar(30), Marital_Status varchar(20), Address varchar(40), City varchar(25), Pincode varchar(20), State varchar(25));
+
+4 - Create the second table to store more information of user
+
+create table SignupTwo(formno varchar(20), Religion varchar(20), Category varchar(20), Income varchar(20), Education varchar(20), Occupation varchar(20), Pan varchar(20), Aadhar varchar(20), Seniorcitizen varchar(20), Existingaccount varchar(20));
+
+5 - Create the third table to store the account information of user
+
+create table SignupThree(formno varchar(20), AccountType varchar(40), Cardnumber varchar(25), Pin varchar(10), Facility varchar(100));
+
+6 - Create the Login table to store login information
+
+create table Login(formno varchar(20), cardnumber varchar(25), pin varchar(10));
+
+7 - Now create bank table to store transactions related information 
+
+create table Bank(Pin varchar(10), date varchar(50), type varchar(20), Amount varchar(20));
+
+If you have any questions, feel free to ping me on Gmail/Linkedin 
+
+G-mail:
+satyambisen01234@gmail.com
+
+Linkedin:
+www.linkedin.com/in/satyam-singh-a17424205
+
